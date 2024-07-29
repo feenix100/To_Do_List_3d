@@ -11,10 +11,6 @@ This project is a 3D to-do list application built with Three.js. It allows users
 - **Orbit Controls:** Users can navigate the 3D space using OrbitControls.
 - **Simple Person Model:** A basic 3D person model is included in the scene.
 
-## Demo
-
-![Demo GIF](path-to-your-demo.gif)
-
 ## Getting Started
 
 ### Prerequisites
