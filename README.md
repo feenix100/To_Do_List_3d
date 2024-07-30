@@ -35,14 +35,12 @@ To run this project, you need a modern web browser with JavaScript enabled.
 1. Enter a task in the input box and click "Add" to add a task.
 2. The task will appear as 3D text floating above the floor.
 3. To delete a task, click the "Delete" button next to the task in the history list.
-4. The deleted task will animate to the person's head, drop to the floor, and explode into particles.
+4. The deleted task will move to the person's head, drop on the person's head, and explode into particles.
 
 ## Code Structure
 
-- `index.html`: The main HTML file that includes the Three.js and other necessary scripts. (I included all code in one file, to keep it simple.)
-  
+- `index.html`: The main HTML file that includes the Three.js and other necessary scripts.
 - `app.js`: The main JavaScript file containing the Three.js scene setup and logic for adding, deleting, and animating tasks.
-- `style.css`: (If needed) Contains styles for the input container and task history list.
 
 ### Key JavaScript Functions
 
@@ -62,9 +60,6 @@ To run this project, you need a modern web browser with JavaScript enabled.
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
 
-## License
-
-This project is licensed under the GNU public License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
