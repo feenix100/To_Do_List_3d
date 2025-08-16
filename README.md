@@ -1,3 +1,6 @@
+<img src="https://github.com/feenix100/To_Do_List_3d/blob/main/Screenshot3dtodoList.png" alt="3d to do list in three js" width="300"/>
+
+
 # 3D To-Do List with Three.js
 
 This project is a 3D to-do list application built with Three.js. It allows users to add tasks, display them in a 3D space, and interact with them using OrbitControls. Tasks can be deleted, and upon deletion, they animate to a person's head, drop to the floor, and explode into particles.
