@@ -1,4 +1,4 @@
-<img src="https://github.com/feenix100/To_Do_List_3d/blob/main/Screenshot3dtodoList.png" alt="3d to do list in three js" width="300"/>
+<img src="https://github.com/feenix100/To_Do_List_3d/blob/main/Screenshot3dtodoList.png" alt="3d to do list in three js" width="600"/>
 
 
 # 3D To-Do List with Three.js
