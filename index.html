@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <title>3D To-Do List</title>
     <style>
-        body { margin: 0; }
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(135deg, #00008B, #00FF7F, #FF00FF, #00FFFF, #32CD32);
+            background-size: 400% 400%;
+            animation: psychedelicGradient 15s ease infinite;
+        }
+
+        @keyframes psychedelicGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
         canvas { display: block; }
+        
         #input-container {
             position: absolute;
             top: 20px;

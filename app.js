@@ -1,11 +1,13 @@
 // Scene setup
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer();
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+
+renderer.domElement.style.background = 'transparent';
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 // Set background color
-renderer.setClearColor(0xf0f0f0); // Light gray color
+renderer.setClearColor(0x000000, 0) // Light gray color
 
 document.body.appendChild(renderer.domElement);
 
