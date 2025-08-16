@@ -7,11 +7,12 @@
         body {
             margin: 0;
             overflow: hidden;
+            /*psychedelic gradient colors*/
             background: linear-gradient(135deg, #00008B, #00FF7F, #FF00FF, #00FFFF, #32CD32);
             background-size: 400% 400%;
             animation: psychedelicGradient 15s ease infinite;
         }
-
+        /*creates the psychedelic animation effect in the background*/
         @keyframes psychedelicGradient {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
@@ -93,4 +94,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
